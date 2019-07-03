@@ -313,7 +313,7 @@ function load_ability_deck(deck_class, deck_name, level) {
     }
 
     deck.is_boss = function () {
-        return this.class == DECKS["Boss"].class;
+        return this.class == DECKS["Босс"].class;
     }
 
     deck.set_card_piles = function (draw_pile, discard_pile) {
@@ -536,7 +536,7 @@ function double_draw(deck) {
 function load_modifier_deck() {
     var deck =
         {
-            name: "Monster modifier deck",
+            name: "Модификаторы атаки монстров",
             type: DECK_TYPES.MODIFIER,
             draw_pile: [],
             discard: [],
@@ -718,7 +718,7 @@ function get_monster_stats(name, level) {
 }
 
 function get_boss_stats(name, level) {
-    name = name.replace("Boss: ", "");
+    name = name.replace("Босс: ", "");
     var attack = [MONSTER_STATS["bosses"][name]["level"][level]["attack"]];
     var move = [MONSTER_STATS["bosses"][name]["level"][level]["move"]];
     var range = [MONSTER_STATS["bosses"][name]["level"][level]["range"]];
@@ -793,7 +793,7 @@ function apply_deck_selection(decks, preserve_existing_deck_state) {
             e.preventDefault();
         }, false);
         deck_space.className = "card-container";
-        deck_space.title = "Click to draw enemy ability";
+        deck_space.title = "Нажмите чтобы вытащить карту способности врага";
 
         container.appendChild(deck_space);
 
@@ -816,7 +816,7 @@ function apply_deck_selection(decks, preserve_existing_deck_state) {
 
         if (deck.is_boss()) {
             // We don't want stats if someone selects Boss on the deck tab
-            if (deck.get_real_name() != "Boss") {
+            if (deck.get_real_name() != "Босс") {
                 deck.set_stats_boss(get_boss_stats(deck.get_real_name(), deck.level));
             }
         } else {
@@ -839,7 +839,7 @@ function apply_deck_selection(decks, preserve_existing_deck_state) {
         label.id = "switch-" + deckid;
         label.href = "#switch-" + deckid
         label.innerText = deck.get_real_name();
-        label.title = "Click to show/hide deck";
+        label.title = "Нажмите чтоюы показать/скрыть колоду";
         label.addEventListener("click", function(e){
             var d = document.getElementById(this.id.replace("switch-",""));
             d.className = (d.className == "hiddendeck") ? "card-container" : "hiddendeck";
@@ -922,13 +922,13 @@ function add_modifier_deck(container, deck, preserve_discards) {
     var button_div = document.createElement("div");
     button_div.className = "modifier-deck-column-1";
 
-    button_div.appendChild(create_counter("bless", deck.add_card, deck.remove_card, "Bless cards"));
-    button_div.appendChild(create_counter("curse", deck.add_card, deck.remove_card, "Curse cards"));
+    button_div.appendChild(create_counter("bless", deck.add_card, deck.remove_card, "Благословения"));
+    button_div.appendChild(create_counter("curse", deck.add_card, deck.remove_card, "Проклятья"));
 
     var end_round_div = document.createElement("div");
     end_round_div.className = "counter-icon shuffle not-required";
     end_round_div.onclick = end_round;
-    end_round_div.title = "Click to end round and shuffle";
+    end_round_div.title = "Нажмите чтобы окончить раунд и перемешать";
 
     document.body.addEventListener(EVENT_NAMES.MODIFIER_DECK_SHUFFLE_REQUIRED, indicate_shuffle_required);
 
@@ -938,12 +938,12 @@ function add_modifier_deck(container, deck, preserve_discards) {
 
     var deck_space = document.createElement("div");
     deck_space.className = "card-container modifier";
-    deck_space.title = "Click to draw one card";
+    deck_space.title = "Нажмите чтобы вытащить карту";
 
     var draw_two_button = document.createElement("div");
     draw_two_button.className = "button draw-two";
     draw_two_button.onclick = double_draw.bind(null, modifier_deck);
-    draw_two_button.title = "Click to draw two cards";
+    draw_two_button.title = "Нажмите чтобы вытащить две карты";
 
     deck_column.appendChild(deck_space);
     deck_column.appendChild(draw_two_button);
@@ -996,11 +996,11 @@ function DeckList() {
 
 
     var listitem = document.createElement("li");
-    var global_level_selector = new LevelSelector("Select global level ", true);
+    var global_level_selector = new LevelSelector("Уровень сценария", true);
     listitem.appendChild(global_level_selector.html);
     decklist.global_level_selector = global_level_selector;
 
-    var dom_dict = create_input("button", "applylevel", "Apply All", "");
+    var dom_dict = create_input("button", "applylevel", "Применить ко всем", "");
     dom_dict.input.onclick = function () {
         for (key in decklist.level_selectors) {
             decklist.level_selectors[key].set_value(decklist.global_level_selector.get_selection());
@@ -1016,7 +1016,7 @@ function DeckList() {
         var dom_dict = create_input("checkbox", "deck", real_name, real_name);
         listitem.appendChild(dom_dict.root);
 
-        var level_selector = new LevelSelector(" with level ", true);
+        var level_selector = new LevelSelector(" уровня ", true);
         listitem.appendChild(level_selector.html);
 
         decklist.ul.appendChild(listitem);
@@ -1066,7 +1066,7 @@ function ScenarioList(scenarios) {
     scenariolist.special_rules = {};
     scenariolist.level_selector = null;
 
-    scenariolist.level_selector = new LevelSelector("Select level", false);
+    scenariolist.level_selector = new LevelSelector("Уровень сценария", false);
 
     scenariolist.ul.appendChild(scenariolist.level_selector.html);
 
@@ -1077,7 +1077,7 @@ function ScenarioList(scenarios) {
     }
 
     var listitem = document.createElement("li");
-    listitem.innerText = "Select scenario number";
+    listitem.innerText = "Номер сценария";
     scenariolist.ul.appendChild(listitem);
 
     var scenario_spinner = create_input("number", "scenario_number", "1", "");
@@ -1107,8 +1107,8 @@ function ScenarioList(scenarios) {
         return (this.decks[this.get_selection()].map(function (deck) {
             if (DECKS[deck.name]) {
                 deck.class = DECKS[deck.name].class;
-            } else if (deck.name.indexOf("Boss") != -1) {
-                deck.class = DECKS["Boss"].class;
+            } else if (deck.name.indexOf("Босс") != -1) {
+                deck.class = DECKS["Босс"].class;
             }
             deck.level = scenariolist.get_level(deck.name, scenariolist.get_special_rules());
             return deck;

@@ -3,7 +3,7 @@ SPECIAL_RULES =
 {
     living_corpse_two_levels_extra:
         {   "description": "All living corpses are two levels higher than the scenario level, up to a max of 7",
-            "affected_deck": "Living Corpse",
+            "affected_deck": "Оживший труп",
             "extra_levels": 2
         }
 };
@@ -12,17 +12,17 @@ SPECIAL_RULES =
 SCENARIO_DEFINITIONS =
     [   { name: "#1 Black Barrow"
         , decks:
-            [   {"name": "Bandit Guard", "deck_name": "Guard"}
-            ,   {"name": "Bandit Archer", "deck_name": "Archer"}
-            ,   {"name": "Living Bones", "deck_name": "Living Bones"}
+            [   {"name": "Бандит-страж", "deck_name": "Guard"}
+            ,   {"name": "Бандит-лучник", "deck_name": "Archer"}
+            ,   {"name": "Ожившие кости", "deck_name": "Ожившие кости"}
             ]
         },
         { name: "#2 Barrow Lair"
         , decks:
-            [   {"name": "Bandit Archer"}
-            ,   {"name": "Boss: Bandit Commander"}
-            ,   {"name": "Living Bones"}
-            ,   {"name": "Living Corpse"}
+            [   {"name": "Бандит-лучник"}
+            ,   {"name": "Босс: Главарь бандитов"}
+            ,   {"name": "Ожившие кости"}
+            ,   {"name": "Оживший труп"}
             ]
         },
         { name: "#3 Inox Encampment"
@@ -34,8 +34,8 @@ SCENARIO_DEFINITIONS =
         },
         { name: "#4 Crypt of the Damned"
         , decks:
-            [   {"name": "Living Bones"}
-            ,   {"name": "Bandit Archer"}
+            [   {"name": "Ожившие кости"}
+            ,   {"name": "Бандит-лучник"}
             ,   {"name": "Cultist"}
             ,   {"name": "Earth Demon"}
             ,   {"name": "Wind Demon"}
@@ -44,7 +44,7 @@ SCENARIO_DEFINITIONS =
         { name: "#5 Ruinous Crypt"
         , decks:
             [   {"name": "Cultist"}
-            ,   {"name": "Living Bones"}
+            ,   {"name": "Ожившие кости"}
             ,   {"name": "Night Demon"}
             ,   {"name": "Flame Demon"}
             ,   {"name": "Frost Demon"}
@@ -52,8 +52,8 @@ SCENARIO_DEFINITIONS =
         },
         { name: "#6 Decaying Crypt"
         , decks:
-            [   {"name": "Living Bones"}
-            ,   {"name": "Living Corpse"}
+            [   {"name": "Ожившие кости"}
+            ,   {"name": "Оживший труп"}
             ,   {"name": "Living Spirit"}
             ]
         },
@@ -67,16 +67,16 @@ SCENARIO_DEFINITIONS =
         },
         { name: "#8 Gloomhaven Warehouse"
         , decks:
-            [   {"name": "Living Bones"}
-            ,   {"name": "Living Corpse"}
-            ,   {"name": "Boss: Inox Bodyguard"}
+            [   {"name": "Ожившие кости"}
+            ,   {"name": "Оживший труп"}
+            ,   {"name": "Босс: Inox Bodyguard"}
             ]
         },
         { name: "#9 Diamond Mine"
         , decks:
             [   {"name": "Hound"}
             ,   {"name": "Vermling Scout"}
-            ,   {"name": "Boss: Merciless Overseer"}
+            ,   {"name": "Босс: Merciless Overseer"}
             ]
         },
         { name: "#10 Plane of Elemental Power"
@@ -88,21 +88,21 @@ SCENARIO_DEFINITIONS =
         },
         { name: "#11 Gloomhaven Square A"
         , decks:
-            [   {"name": "Living Bones"}
-            ,   {"name": "Living Corpse"}
+            [   {"name": "Ожившие кости"}
+            ,   {"name": "Оживший труп"}
             ,   {"name": "City Guard"}
             ,   {"name": "City Archer"}
-            ,   {"name": "Boss: Captain of the Guard"}
+            ,   {"name": "Босс: Captain of the Guard"}
             ]
         },
         { name: "#12 Gloomhaven Square B"
         , decks:
-            [   {"name": "Living Bones"}
-            ,   {"name": "Living Corpse"}
+            [   {"name": "Ожившие кости"}
+            ,   {"name": "Оживший труп"}
             ,   {"name": "Cultist"}
             ,   {"name": "City Guard"}
             ,   {"name": "City Archer"}
-            ,   {"name": "Boss: Jekserah"}
+            ,   {"name": "Босс: Jekserah"}
             ]
         },
         { name: "#13 Temple of the Seer"
@@ -154,18 +154,18 @@ SCENARIO_DEFINITIONS =
         { name: "#19 Forgotten Crypt"
         , decks:
             [   {"name": "Cultist"}
-            ,   {"name": "Living Bones"}
+            ,   {"name": "Ожившие кости"}
             ,   {"name": "Living Spirit"}
-            ,   {"name": "Living Corpse"}
+            ,   {"name": "Оживший труп"}
             ]
         },
         { name: "#20 Necromancer's Sanctum"
         , decks:
-            [   {"name": "Living Bones"}
+            [   {"name": "Ожившие кости"}
             ,   {"name": "Cultist"}
             ,   {"name": "Night Demon"}
-            ,   {"name": "Living Corpse"}
-            ,   {"name": "Boss: Jekserah"}
+            ,   {"name": "Оживший труп"}
+            ,   {"name": "Босс: Jekserah"}
             ]
         },
         { name: "#21 Infernal Throne"
@@ -176,12 +176,12 @@ SCENARIO_DEFINITIONS =
             ,   {"name": "Wind Demon"}
             ,   {"name": "Earth Demon"}
             ,   {"name": "Flame Demon"}
-            ,   {"name": "Boss: Prime Demon"}
+            ,   {"name": "Босс: Prime Demon"}
             ]
         },
         { name: "#22 Temple of the Elements"
         , decks:
-            [   {"name": "Living Bones"}
+            [   {"name": "Ожившие кости"}
             ,   {"name": "Cultist"}
             ,   {"name": "Earth Demon"}
             ,   {"name": "Flame Demon"}
@@ -193,7 +193,7 @@ SCENARIO_DEFINITIONS =
         , decks:
             [   {"name": "Stone Golem"}
             ,   {"name": "Ancient Artillery"}
-            ,   {"name": "Living Bones"}
+            ,   {"name": "Ожившие кости"}
             ,   {"name": "Living Spirit"}
             ]
         },
@@ -213,7 +213,7 @@ SCENARIO_DEFINITIONS =
         },
         { name: "#26 Ancient Cistern"
         , decks:
-            [   {"name": "Living Corpse"}
+            [   {"name": "Оживший труп"}
             ,   {"name": "Ooze"}
             ,   {"name": "Night Demon"}
             ,   {"name": "Black Imp"}
@@ -231,9 +231,9 @@ SCENARIO_DEFINITIONS =
         },
         { name: "#28 Outer Ritual Chamber"
         , decks:
-            [   {"name": "Living Corpse"}
+            [   {"name": "Оживший труп"}
             ,   {"name": "Cultist"}
-            ,   {"name": "Living Bones"}
+            ,   {"name": "Ожившие кости"}
             ,   {"name": "Night Demon"}
             ,   {"name": "Sun Demon"}
             ]
@@ -243,8 +243,8 @@ SCENARIO_DEFINITIONS =
         },
         { name: "#29 Sanctuary of Gloom"
         , decks:
-            [   {"name": "Living Bones"}
-            ,   {"name": "Living Corpse"}
+            [   {"name": "Ожившие кости"}
+            ,   {"name": "Оживший труп"}
             ,   {"name": "Living Spirit"}
             ,   {"name": "Black Imp"}
             ]
@@ -285,7 +285,7 @@ SCENARIO_DEFINITIONS =
         , decks:
             [   {"name": "Rending Drake"}
             ,   {"name": "Spitting Drake"}
-            ,   {"name": "Boss: Elder Drake"}
+            ,   {"name": "Босс: Elder Drake"}
             ]
         },
         { name: "#35 Gloomhaven Battlements A"
@@ -295,8 +295,8 @@ SCENARIO_DEFINITIONS =
             ,   {"name": "Earth Demon"}
             ,   {"name": "Wind Demon"}
             ,   {"name": "City Archer"}
-            ,   {"name": "City Guard"}             
-            ,   {"name": "Boss: Captain of the Guard"}
+            ,   {"name": "City Guard"}
+            ,   {"name": "Босс: Captain of the Guard"}
             ]
         },
         { name: "#36 Gloomhaven Battlements B"
@@ -306,7 +306,7 @@ SCENARIO_DEFINITIONS =
             ,   {"name": "Earth Demon"}
             ,   {"name": "Wind Demon"}
             ,   {"name": "City Archer"}
-            ,   {"name": "Boss: Prime Demon"}
+            ,   {"name": "Босс: Prime Demon"}
             ]
         },
         { name: "#37 Doom Trench"
@@ -330,12 +330,12 @@ SCENARIO_DEFINITIONS =
             ,   {"name": "Frost Demon"}
             ,   {"name": "Spitting Drake"}
             ,   {"name": "Cultist"}
-            ,   {"name": "Living Bones"}
+            ,   {"name": "Ожившие кости"}
             ]
         },
         { name: "#40 Ancient Defense Network"
         , decks:
-            [   {"name": "Living Corpse"}
+            [   {"name": "Оживший труп"}
             ,   {"name": "Flame Demon"}
             ,   {"name": "Cave Bear"}
             ,   {"name": "Stone Golem"}
@@ -345,7 +345,7 @@ SCENARIO_DEFINITIONS =
         { name: "#41 Timeworn Tomb"
         , decks:
             [   {"name": "Ancient Artillery"}
-            ,   {"name": "Living Corpse"}
+            ,   {"name": "Оживший труп"}
             ,   {"name": "Living Spirit"}
             ,   {"name": "Stone Golem"}
             ]
@@ -385,7 +385,7 @@ SCENARIO_DEFINITIONS =
             ,   {"name": "Frost Demon"}
             ,   {"name": "Wind Demon"}
             ,   {"name": "Savvas Icestorm"}
-            ,   {"name": "Boss: Winged Horror"}
+            ,   {"name": "Босс: Winged Horror"}
             ]
         },
         { name: "#47 Lair of the Unseeing Eye"
@@ -393,7 +393,7 @@ SCENARIO_DEFINITIONS =
             [   {"name": "Lurker"}
             ,   {"name": "Deep Terror"}
             ,   {"name": "Harrower Infester"}
-            ,   {"name": "Boss: The Sightless Eye"}
+            ,   {"name": "Босс: The Sightless Eye"}
             ]
         },
         { name: "#48 - Shadow Weald"
@@ -401,7 +401,7 @@ SCENARIO_DEFINITIONS =
             [   {"name": "Forest Imp"}
             ,   {"name": "Earth Demon"}
             ,   {"name": "Harrower Infester"}
-            ,   {"name": "Boss: Dark Rider"}
+            ,   {"name": "Босс: Dark Rider"}
             ]
         },
         { name: "#49 Rebel's Stand"
@@ -421,7 +421,7 @@ SCENARIO_DEFINITIONS =
         },
         { name: "#51 The Void"
         , decks:
-            [   {"name": "Boss: The Gloom"}
+            [   {"name": "Босс: The Gloom"}
             ]
         },
         { name: "#52 Noxious Cellar"
@@ -429,16 +429,16 @@ SCENARIO_DEFINITIONS =
             [   {"name": "Spitting Drake"}
             ,   {"name": "Ooze"}
             ,   {"name": "Vermling Scout"}
-            ,   {"name": "Living Corpse"}
+            ,   {"name": "Оживший труп"}
             ,   {"name": "Vermling Shaman"}
             ]
         },
         { name: "#53 Crypt Basement"
         , decks:
             [   {"name": "Ooze"}
-            ,   {"name": "Living Corpse"}
+            ,   {"name": "Оживший труп"}
             ,   {"name": "Living Spirit"}
-            ,   {"name": "Living Bones"}
+            ,   {"name": "Ожившие кости"}
             ,   {"name": "Giant Viper"}
             ]
         },
@@ -458,9 +458,9 @@ SCENARIO_DEFINITIONS =
         { name: "#56 Bandit's Wood"
         , decks:
             [   {"name": "Hound"}
-            ,   {"name": "Bandit Archer"}
+            ,   {"name": "Бандит-лучник"}
             ,   {"name": "Rending Drake"}
-            ,   {"name": "Bandit Guard"}
+            ,   {"name": "Бандит-страж"}
             ]
         },
         { name: "#57 Investigation"
@@ -504,7 +504,7 @@ SCENARIO_DEFINITIONS =
         },
         { name: "#62 Pit of Souls"
         , decks:
-            [   {"name": "Living Bones"}
+            [   {"name": "Ожившие кости"}
             ,   {"name": "Living Spirit"}
             ]
         },
@@ -550,7 +550,7 @@ SCENARIO_DEFINITIONS =
             [   {"name": "Rending Drake"}
             ,   {"name": "Black Imp"}
             ,   {"name": "Giant Viper"}
-            ,   {"name": "Living Corpse"}
+            ,   {"name": "Оживший труп"}
             ]
         },
         { name: "#69 Well of the Unfortunate"
@@ -594,23 +594,23 @@ SCENARIO_DEFINITIONS =
         },
         { name: "#74 Merchant Ship"
         , decks:
-            [   {"name": "Bandit Guard"}
-            ,   {"name": "Bandit Archer"}
+            [   {"name": "Бандит-страж"}
+            ,   {"name": "Бандит-лучник"}
             ,   {"name": "Lurker"}
             ,   {"name": "Deep Terror"}
             ]
         },
         { name: "#75 Overgrown Graveyard"
         , decks:
-            [   {"name": "Living Bones"}
-            ,   {"name": "Living Corpse"}
+            [   {"name": "Ожившие кости"}
+            ,   {"name": "Оживший труп"}
             ,   {"name": "Living Spirit"}
             ]
         },
         { name: "#76 Harrower Hive"
         , decks:
             [   {"name": "Giant Viper"}
-            ,   {"name": "Living Bones"}
+            ,   {"name": "Ожившие кости"}
             ,   {"name": "Night Demon"}
             ,   {"name": "Harrower Infester"}
             ]
@@ -625,10 +625,10 @@ SCENARIO_DEFINITIONS =
         },
         { name: "#78 Sacrifice Pit"
         , decks:
-            [   {"name": "Bandit Guard"}
-            ,   {"name": "Bandit Archer"}
+            [   {"name": "Бандит-страж"}
+            ,   {"name": "Бандит-лучник"}
             ,   {"name": "Cultist"}
-            ,   {"name": "Living Bones"}
+            ,   {"name": "Ожившие кости"}
             ,   {"name": "Black Imp"}
             ]
         },
@@ -636,7 +636,7 @@ SCENARIO_DEFINITIONS =
         , decks:
             [   {"name": "Stone Golem"}
             ,   {"name": "Giant Viper"}
-            ,   {"name": "Boss: The Betrayer"}
+            ,   {"name": "Босс: The Betrayer"}
             ]
         },
         { name: "#80 Vigil Keep"
@@ -653,7 +653,7 @@ SCENARIO_DEFINITIONS =
             ,   {"name": "Sun Demon"}
             ,   {"name": "Stone Golem"}
             ,   {"name": "Ancient Artillery"}
-            ,   {"name": "Boss: The Colorless"}
+            ,   {"name": "Босс: The Colorless"}
             ]
         },
         { name: "#82 Burning Mountain"
@@ -667,7 +667,7 @@ SCENARIO_DEFINITIONS =
         , decks:
             [   {"name": "Hound"}
             ,   {"name": "Cultist"}
-            ,   {"name": "Living Bones"}
+            ,   {"name": "Ожившие кости"}
             ,   {"name": "Living Spirit"}
             ,   {"name": "Flame Demon"}
             ]
@@ -712,8 +712,8 @@ SCENARIO_DEFINITIONS =
         },
         { name: "#89 Syndicate Hideout"
         , decks:
-            [   {"name": "Bandit Archer"}
-            ,   {"name": "Bandit Guard"}
+            [   {"name": "Бандит-лучник"}
+            ,   {"name": "Бандит-страж"}
             ,   {"name": "Cultist"}
             ,   {"name": "Giant Viper"}
             ]
@@ -730,17 +730,17 @@ SCENARIO_DEFINITIONS =
         , decks:
             [   {"name": "Cave Bear"}
             ,   {"name": "Hound"}
-            ,   {"name": "Bandit Guard"}
-            ,   {"name": "Bandit Archer"}
+            ,   {"name": "Бандит-страж"}
+            ,   {"name": "Бандит-лучник"}
             ,   {"name": "Living Spirit"}
             ]
         },
         { name: "#92 Back Alley Brawl"
         , decks:
-            [   {"name": "Bandit Guard"}
+            [   {"name": "Бандит-страж"}
             ,   {"name": "City Guard"}
             ,   {"name": "Inox Guard"}
-            ,   {"name": "Bandit Archer"}
+            ,   {"name": "Бандит-лучник"}
             ,   {"name": "City Archer"}
             ,   {"name": "Savvas Lavaflow"}
             ,   {"name": "Flame Demon"}
