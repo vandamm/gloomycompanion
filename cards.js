@@ -1,9 +1,9 @@
 DECKS =
     {   "Ancient Artillery":  {name: "Ancient Artillery", class: "Ancient Artillery"}
-    ,   "Bandit Archer":      {name: "Bandit Archer", class: "Archer"}
-    ,   "Bandit Guard":       {name: "Bandit Guard", class: "Guard"}
+    ,   "Бандит-лучник":      {name: "Бандит-лучник", class: "Archer"}
+    ,   "Бандит-страж":       {name: "Бандит-страж", class: "Guard"}
     ,   "Black Imp":          {name: "Black Imp", class: "Imp"}
-    ,   "Boss":               {name: "Boss", class: "Boss"}
+    ,   "Босс":               {name: "Босс", class: "Босс"}
     ,   "Cave Bear":          {name: "Cave Bear", class: "Cave Bear"}
     ,   "City Archer":        {name: "City Archer", class: "Archer"}
     ,   "City Guard":         {name: "City Guard", class: "Guard"}
@@ -19,8 +19,8 @@ DECKS =
     ,   "Inox Archer":        {name: "Inox Archer", class: "Archer"}
     ,   "Inox Guard":         {name: "Inox Guard", class: "Guard"}
     ,   "Inox Shaman":        {name: "Inox Shaman", class: "Shaman"}
-    ,   "Living Bones":       {name: "Living Bones", class: "Living Bones"}
-    ,   "Living Corpse":      {name: "Living Corpse", class: "Living Corpse"}
+    ,   "Ожившие кости":      {name: "Ожившие кости", class: "Ожившие кости"}
+    ,   "Оживший труп":      {name: "Оживший труп", class: "Оживший труп"}
     ,   "Living Spirit":      {name: "Living Spirit", class: "Living Spirit"}
     ,   "Lurker":             {name: "Lurker", class: "Lurker"}
     ,   "Night Demon":        {name: "Night Demon", class: "Night Demon"}
@@ -62,7 +62,7 @@ DECK_DEFINITONS =
             , [true,  "29", "* %move% +0", "* %attack% -1", "** %range% +1", "** %immobilize%"]
             ]
         },
-        { class: "Boss"
+        { class: "Босс"
         , cards:
             [ [false, "11", "* Special 2"]
             , [false, "14", "* Special 2"]
@@ -83,7 +83,7 @@ DECK_DEFINITONS =
             , [false, "60", "* %move% -1", "* %attack% +1"]
             , [true,  "80", "* %attack% -1", "* %move% -2", "* %attack% -1", "** %wound%"]
             , [false, "61", "* %move% +0", "* %attack% -1", "** %target% 2"]
-            , [false, "03", "* %shield% 1", "* %retaliate% 2", "* %heal% 2", "** Self"]
+            , [false, "03", "* %shield% 1", "* %retaliate% 2", "* %heal% 2", "** На себя"]
             ]
         },
         { class: "Cultist"
@@ -92,9 +92,9 @@ DECK_DEFINITONS =
             , [false, "10", "* %move% -1", "* %attack% -1", "* On Death:", "** %attack% +2 %aoe-circle-with-middle-black%"]
             , [false, "27", "* %move% +0", "* %attack% +0"]
             , [false, "27", "* %move% +0", "* %attack% +0"]
-            , [false, "39", "* %move% -1", "* %attack% +0", "* %heal% 1", "** Self"]
-            , [true,  "63", "* Summon normal Living Bones", "* Cultist suffers 2 damage."]
-            , [true,  "63", "* Summon normal Living Bones", "* Cultist suffers 2 damage."]
+            , [false, "39", "* %move% -1", "* %attack% +0", "* %heal% 1", "** На себя"]
+            , [true,  "63", "* Summon normal Ожившие кости", "* Cultist suffers 2 damage."]
+            , [true,  "63", "* Summon normal Ожившие кости", "* Cultist suffers 2 damage."]
             , [false, "31", "* %move% -1", "* %heal% 3", "** %range% 3"]
             ]
         },
@@ -107,12 +107,12 @@ DECK_DEFINITONS =
             , [false, "75", "* %attack% +0", "** %poison%", "* %attack% -1", "** %range% 5", "** %immobilize%"]
             , [false, "75", "* %attack% -2", "** Target all adjacent enemies", "** %disarm%", "* %attack% +0", "** %range% 3", "** %target% 2"]
             , [false, "96", "* %attack% -2", "** %range% 6", "** Summon normal Deep Terror in a hex adjacent to the target"]
-            , [false, "54", "* %wound% and %poison%", "** Target all adjacent enemies", "* %attack% +0", "** %range% 4"]
+            , [false, "54", "* %wound% и %poison%", "** Target all adjacent enemies", "* %attack% +0", "** %range% 4"]
             ]
         },
         { class: "Earth Demon"
         , cards:
-            [ [true,  "40", "* %heal% 3", "** Self", "* %earth%%use_element%: <span class='small'>%immobilize% Target all enemies within %range% 3</span>"]
+            [ [true,  "40", "* %heal% 3", "** На себя", "* %earth%%use_element%: <span class='small'>%immobilize% Target all enemies within %range% 3</span>"]
             , [true,  "42", "* %move% +1", "* %attack% -1"]
             , [false, "62", "* %move% +0", "* %attack% +0", "* %earth%"]
             , [false, "71", "* %attack% +0", "** %range% 4", "** %earth%%use_element%: %target% 2"]
@@ -136,7 +136,7 @@ DECK_DEFINITONS =
         },
         { class: "Frost Demon"
         , cards:
-            [ [false, "18", "* %immobilize%", "** Target all enemies within %range% 2", "* %ice%%use_element%: <span class='small'>%heal% 3<br/>Self</span>"]
+            [ [false, "18", "* %immobilize%", "** Target all enemies within %range% 2", "* %ice%%use_element%: <span class='small'>%heal% 3<br/>На себя</span>"]
             , [false, "38", "* %move% +1", "* %attack% -1"]
             , [false, "58", "* %move% +0", "* %attack% +0"]
             , [false, "58", "* %move% -1", "* %attack% +0" , "** %range% 2", "** %ice%%use_element%: +2 %attack%, +1 %range%"]
@@ -166,7 +166,7 @@ DECK_DEFINITONS =
             , [false, "50", "* %move% +0", "* %attack% +0"]
             , [false, "50", "* %move% +0", "* %attack% +0"]
             , [false, "70", "* %move% -1", "* %attack% +1"]
-            , [false, "55", "* %move% -1", "* %attack% +0", "* %strengthen%", "** Self"]
+            , [false, "55", "* %move% -1", "* %attack% +0", "* %strengthen%", "** На себя"]
             , [true , "15", "* %shield% 1", "* %attack% +0", "** %poison%"]
             ]
         },
@@ -174,12 +174,12 @@ DECK_DEFINITONS =
         , cards:
             [ [false, "38", "* %move% -1", "* %attack% +1", "** %target% 2"]
             , [false, "07", "* %move% +0", "* %attack% -1", "** %poison%", "* %dark%"]
-            , [false, "16", "* %move% -1", "* %attack% -1", "* %heal% 5", "** Self"]
+            , [false, "16", "* %move% -1", "* %attack% -1", "* %heal% 5", "** На себя"]
             , [false, "16", "* %attack% +2", "** %immobilize%", "* %retaliate% 2"]
             , [true,  "02", "* %shield% 2", "* %retaliate% 2", "** %range% 3"]
-            , [false, "30", "* %move% -1", "* %attack% +0 %aoe-line-4-with-black%", "** %dark%%use_element%: Perform \"%heal% 2, Self\" </br>for each target damaged"]
+            , [false, "30", "* %move% -1", "* %attack% +0 %aoe-line-4-with-black%", "** %dark%%use_element%: Perform \"%heal% 2, На себя\" </br>for each target damaged"]
             , [false, "38", "* %move% +0", "* %attack% -1", "** %target% 2", "** %dark%%use_element%: +2 %attack%, %disarm%"]
-            , [true,  "07", "* %attack% -1", "** %range% 3", "** %muddle%", "* %heal% 4", "** Self"]
+            , [true,  "07", "* %attack% -1", "** %range% 3", "** %muddle%", "* %heal% 4", "** На себя"]
             ]
         },
         { class: "Hound"
@@ -196,7 +196,7 @@ DECK_DEFINITONS =
 		},
         { class: "Imp"
         , cards:
-            [ [false, "05", "* %shield% 5", "* %heal% 1", "** Self"]
+            [ [false, "05", "* %shield% 5", "* %heal% 1", "** На себя"]
             , [false, "37", "* %move% +0", "* %attack% +0","** %range% +0"]
             , [false, "37", "* %move% +0", "* %attack% +0","** %range% +0"]
             , [false, "42", "* %move% +1", "* %heal% 2", "** %range% 3"]
@@ -206,28 +206,28 @@ DECK_DEFINITONS =
             , [false, "24", "* %strengthen%", "** Affect all allies within %range% 2", "* %muddle%", "** Target all enemies within %range% 2"]
             ]
         },
-        { class: "Living Bones"
+        { class: "Ожившие кости"
         , cards:
             [ [false, "64", "* %move% -1", "* %attack% +1"]
-            , [true,  "20", "* %move% -2", "* %attack% +0", "* %heal% 2", "** Self"]
+            , [true,  "20", "* %move% -2", "* %attack% +0", "* %heal% 2", "** На себя"]
             , [false, "25", "* %move% +1", "* %attack% -1"]
             , [false, "45", "* %move% +0", "* %attack% +0"]
             , [false, "45", "* %move% +0", "* %attack% +0"]
             , [false, "81", "* %attack% +2"]
             , [false, "74", "* %move% +0", "* %attack% +0", "** Target one enemy with all attacks"]
-            , [true,  "12", "* %shield% 1", "* %heal% 2", "** Self"]
+            , [true,  "12", "* %shield% 1", "* %heal% 2", "** На себя"]
             ]
         },
-        { class: "Living Corpse"
+        { class: "Оживший труп"
         , cards:
-            [ [false, "21", "* %move% +1", "* %muddle% and %immobilize%", "** Target one adjacent enemy"]
+            [ [false, "21", "* %move% +1", "* %muddle% и %immobilize%", "** Target one adjacent enemy"]
             , [false, "47", "* %move% +1", "* %attack% -1"]
             , [true,  "66", "* %move% +0", "* %attack% +0"]
             , [true,  "66", "* %move% +0", "* %attack% +0"]
             , [false, "82", "* %move% -1", "* %attack% +1"]
-            , [false, "91", "* %move% +1", "* Living Corpse suffers 1 damage."]
+            , [false, "91", "* %move% +1", "* Оживший труп получает 1 урон."]
             , [false, "71", "* %move% +0", "* %attack% +1", "* %poison%", "** Target all adjacent enemies"]
-            , [false, "32", "* %attack% +2", "** %push% 1", "* Living Corpse suffers 1 damage."]
+            , [false, "32", "* %attack% +2", "** %push% 1", "* Оживший труп получает 1 урон."]
             ]
         },
         { class: "Living Spirit"
@@ -237,7 +237,7 @@ DECK_DEFINITONS =
             , [false, "48", "* %move% +0", "* %attack% +0", "** %range% +0"]
             , [false, "48", "* %move% +0", "* %attack% +0", "** %range% +0",]
             , [false, "61", "* %attack% +0", "** %range% -1", "** %target% 2"]
-            , [false, "75", "* %move% -1", "* %attack% +1", "** %range% -1", "* %heal% 1", "** Self"]
+            , [false, "75", "* %move% -1", "* %attack% +1", "** %range% -1", "* %heal% 1", "** На себя"]
             , [false, "55", "* %move% +0", "* %curse%", "** %range% +0", "** Target all enemies within range", "* %ice%"]
             , [false, "67", "* %move% -1", "* %attack% +1", "** %range% +0", "** %ice%%use_element%: %stun%"]
             ]
@@ -250,20 +250,20 @@ DECK_DEFINITONS =
             , [false, "38", "* %move% +0", "* %attack% +0", "** Target one enemy with all attacks"]
             , [false, "61", "* %move% -1", "* %attack% +1"]
             , [false, "64", "* %attack% +1", "** Target all adjacent enemies"]
-            , [false, "41", "* %ice%%use_element%: %strengthen%", "** Self", "* %move% +0", "* %attack% -1", "** %wound%"]
+            , [false, "41", "* %ice%%use_element%: %strengthen%", "** На себя", "* %move% +0", "* %attack% -1", "** %wound%"]
             , [true,  "23", "* %shield% 1", "* %move% +0", "* %attack% -1", "* %ice%"]
             ]
         },
         { class: "Night Demon"
         , cards:
             [ [false, "04", "* %move% +1", "* %attack% -1", "* %dark%"]
-            , [false, "07", "* %move% +1", "* %attack% -1", "* %dark%%use_element%: %invisible%", "** Self"]
+            , [false, "07", "* %move% +1", "* %attack% -1", "* %dark%%use_element%: %invisible%", "** На себя"]
             , [false, "22", "* %move% +0", "* %attack% +0", "* %dark%"]
             , [false, "26", "* %attack% -2", "** %range% 3", "** %target% 3", "** %dark%%use_element%: %muddle%"]
             , [true,  "46", "* %move% -1", "* %attack% +1", "** %dark%%use_element%: +2 %attack%"]
             , [true,  "41", "* %move% -1", "* %attack% +1", "* %dark%"]
-            , [false, "35", "* %attack% -1", "* %attack% -1", "** %pierce% 2", "* %light%%use_element%: %curse%", "** Self"]
-            , [false, "15", "* %move% +0", "* %attack% -1", "* <span class='small'>All adjacent enemies and allies suffer 1 damage.</span>", "* <span class='small'>%any%%use_element%: %dark%</span>"]
+            , [false, "35", "* %attack% -1", "* %attack% -1", "** %pierce% 2", "* %light%%use_element%: %curse%", "** На себя"]
+            , [false, "15", "* %move% +0", "* %attack% -1", "* <span class='small'>All adjacent enemies и allies suffer 1 damage.</span>", "* <span class='small'>%any%%use_element%: %dark%</span>"]
             ]
         },
         { class: "Ooze"
@@ -274,8 +274,8 @@ DECK_DEFINITONS =
             , [false, "66", "* %move% -1", "* %attack% +1", "** %range% +1"]
             , [true,  "94", "* Ooze suffers 2 damage ", "** <span class='small'>Summons normal Ooze with a hit point value equal to the summoning Ooze's current hit point value (limited by a normal Ooze's specified maximum hit point value)</span>"]
             , [true,  "94", "* Ooze suffers 2 damage ", "** <span class='small'>Summons normal Ooze with a hit point value equal to the summoning Ooze's current hit point value (limited by a normal Ooze's specified maximum hit point value)</span>"]
-            , [false, "85", "* %push% 1 and", "* %poison%", "** Target all adjacent enemies", "* %attack% +1", "** %range% -1"]
-            , [false, "66", "* %move% -1", "* %loot% 1", "* %heal% 2", "** Self"]
+            , [false, "85", "* %push% 1 и", "* %poison%", "** Target all adjacent enemies", "* %attack% +1", "** %range% -1"]
+            , [false, "66", "* %move% -1", "* %loot% 1", "* %heal% 2", "** На себя"]
             ]
         },
         { class: "Rending Drake"
@@ -286,7 +286,7 @@ DECK_DEFINITONS =
             , [false, "39", "* %move% -1", "* %attack% +1"]
             , [false, "54", "* %move% -2", "* %attack% -1", "** %range% 3", "** %target% 2", "** %poison%"]
             , [false, "59", "* %move% -2", "* %attack% +1", "** %target% 2"]
-            , [false, "06", "* %shield% 2", "* %heal% 2", "** Self", "* %strengthen%", "** Self"]
+            , [false, "06", "* %shield% 2", "* %heal% 2", "** На себя", "* %strengthen%", "** На себя"]
             , [true,  "72", "* %attack% -1", "* %attack% -1", "* %attack% -2"]
             ]
         },
@@ -334,7 +334,7 @@ DECK_DEFINITONS =
             , [true,  "23", "* %move% +0", "* %heal% 3", "** %range% 3"]
             , [false, "62", "* %move% +0", "* %attack% +0", "** %range% +0"]
             , [false, "74", "* %move% -1", "* %attack% +1","** %range% +0"]
-            , [false, "89", "* %move% -1", "* %heal% 1", "** Affect all adjacent allies", "* %bless%", "** Self"]
+            , [false, "89", "* %move% -1", "* %heal% 1", "** Affect all adjacent allies", "* %bless%", "** На себя"]
             , [false, "09", "* %move% +1", "* %attack% -1", "** %range% +0, %curse%, %target% 2"]
             ]
         },
@@ -346,7 +346,7 @@ DECK_DEFINITONS =
             , [false, "27", "* %attack% +0", "** %range% +0,  %target% 2, %poison%"]
             , [false, "87", "* %move% -1", "* %attack% +1", "** %range% +0"]
             , [false, "89", "* %attack% -2", "** %range% +0", "** %stun%"]
-            , [false, "06", "* %shield% 2", "* %heal% 2", "** Self", "* %strengthen%", "** Self"]
+            , [false, "06", "* %shield% 2", "* %heal% 2", "** На себя", "* %strengthen%", "** На себя"]
             , [true,  "89", "* %move% -1", "* %attack% -2 %aoe-circle%", "** %range% +0", "** %poison%"]
             ]
         },
@@ -368,15 +368,15 @@ DECK_DEFINITONS =
             , [false, "36", "* %move% +0", "* %attack% +0", "** Target all adjacent enemies", "* %light%"]
             , [false, "36", "* %move% +0", "* %attack% +0", "** Target all adjacent enemies", "* %light%"]
             , [false, "68", "* %move% +0", "* %attack% +1", "* %light%"]
-            , [true,  "73", "* %move% +0", "* %attack% +1", "* %light%%use_element%: %heal% 3", "** Self"]
+            , [true,  "73", "* %move% +0", "* %attack% +1", "* %light%%use_element%: %heal% 3", "** На себя"]
             , [false, "95", "* %move% -1", "* %attack% +0", "** %range% 4", "** %light%%use_element%: Target all enemies within range"]
-            , [false, "88", "* %move% -1", "* %attack% -1", "** Target all adjacent enemies", "* %dark%%use_element%: %muddle%", "** Self"]
+            , [false, "88", "* %move% -1", "* %attack% -1", "** Target all adjacent enemies", "* %dark%%use_element%: %muddle%", "** На себя"]
             , [false, "50", "* %move% +0", "* %attack% +0", "** %range% 3", "* %any%%use_element%: %light%"]
             ]
         },
         { class: "Wind Demon"
         , cards:
-          [ [false, "09", "* %attack% -1", "** %range% +0", "* %heal% 1", "** Self", "* %air%%use_element%: %invisible%<br/><span class='small'>Self</span>"]
+          [ [false, "09", "* %attack% -1", "** %range% +0", "* %heal% 1", "** На себя", "* %air%%use_element%: %invisible%<br/><span class='small'>На себя</span>"]
             , [true,  "21", "* %move% +0", "* %attack% +0", "** %range% +0, %pull% 1", "* %air%"]
             , [true,  "21", "* %move% +0", "* %attack% +0", "** %range% +0, %pull% 1", "* %air%"]
             , [false, "29", "* %move% +0", "* %attack% -1", "** %range% +0, %target% 2", "** %air%%use_element%: %push% 2"]
