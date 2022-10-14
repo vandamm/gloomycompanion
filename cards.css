@@ -199,7 +199,7 @@
     backface-visibility:        hidden;
 
     color:                      white;
-    font-family:                'PirataOne';
+    font-family:                'PirataOne', 'Nyala', 'Sakkal Majalla', 'Philosopher', sans-serif;
     font-size:                  100%;
     text-shadow:                1px 2px 3px black;
 
@@ -519,7 +519,7 @@ div.collapse
 
     position:                   absolute;
     left:                       0;
-    bottom:                     14%;
+    bottom:                     16%;
     width:                      100%;
 }
 

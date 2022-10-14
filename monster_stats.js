@@ -155,7 +155,7 @@ MONSTER_STATS = {
         }
       ]
     },
-    "Bandit Archer": {
+    "Бандит-лучник": {
       "level": [
         {
           "level": 0,
@@ -303,7 +303,7 @@ MONSTER_STATS = {
         }
       ]
     },
-    "Bandit Guard": {
+    "Бандит-страж": {
       "level": [
         {
           "level": 0,
@@ -3145,7 +3145,7 @@ MONSTER_STATS = {
         }
       ]
     },
-    "Living Bones": {
+    "Ожившие кости": {
       "level": [
         {
           "level": 0,
@@ -3331,7 +3331,7 @@ MONSTER_STATS = {
         }
       ]
     },
-    "Living Corpse": {
+    "Оживший труп": {
       "level": [
         {
           "level": 0,
@@ -5816,7 +5816,7 @@ MONSTER_STATS = {
     }
   },
   "bosses": {
-    "Bandit Commander": {
+    "Главарь бандитов": {
       "level": [
         {
           "level": 0,
@@ -5828,7 +5828,7 @@ MONSTER_STATS = {
             "Move to next door and reveal room"
           ],
           "special2": [
-            "Summon Living Bones"
+            "Призвать Ожившие кости"
           ],
           "immunities": [
             "%stun%",
@@ -5847,7 +5847,7 @@ MONSTER_STATS = {
             "Move to next door and reveal room"
           ],
           "special2": [
-            "Summon Living Bones"
+            "Призвать Ожившие кости"
           ],
           "immunities": [
             "%stun%",
@@ -5866,7 +5866,7 @@ MONSTER_STATS = {
             "Move to next door and reveal room"
           ],
           "special2": [
-            "Summon Living Bones"
+            "Призвать Ожившие кости"
           ],
           "immunities": [
             "%stun%",
@@ -5885,7 +5885,7 @@ MONSTER_STATS = {
             "Move to next door and reveal room"
           ],
           "special2": [
-            "Summon Living Bones"
+            "Призвать Ожившие кости"
           ],
           "immunities": [
             "%stun%",
@@ -5904,7 +5904,7 @@ MONSTER_STATS = {
             "Move to next door and reveal room"
           ],
           "special2": [
-            "Summon Living Bones"
+            "Призвать Ожившие кости"
           ],
           "immunities": [
             "%stun%",
@@ -5923,7 +5923,7 @@ MONSTER_STATS = {
             "Move to next door and reveal room"
           ],
           "special2": [
-            "Summon Living Bones"
+            "Призвать Ожившие кости"
           ],
           "immunities": [
             "%stun%",
@@ -5942,7 +5942,7 @@ MONSTER_STATS = {
             "Move to next door and reveal room"
           ],
           "special2": [
-            "Summon Living Bones"
+            "Призвать Ожившие кости"
           ],
           "immunities": [
             "%stun%",
@@ -5961,7 +5961,7 @@ MONSTER_STATS = {
             "Move to next door and reveal room"
           ],
           "special2": [
-            "Summon Living Bones"
+            "Призвать Ожившие кости"
           ],
           "immunities": [
             "%stun%",
@@ -5981,7 +5981,7 @@ MONSTER_STATS = {
           "attack": 4,
           "range": 3,
           "special1": [
-            "Summon Giant Viper and Fear"
+            "Призвать Giant Viper and Fear"
           ],
           "special2": [
             "Mind Control"
@@ -6002,7 +6002,7 @@ MONSTER_STATS = {
           "attack": 5,
           "range": 3,
           "special1": [
-            "Summon Giant Viper and Fear"
+            "Призвать Giant Viper and Fear"
           ],
           "special2": [
             "Mind Control"
@@ -6023,7 +6023,7 @@ MONSTER_STATS = {
           "attack": 6,
           "range": 4,
           "special1": [
-            "Summon Giant Viper and Fear"
+            "Призвать Giant Viper and Fear"
           ],
           "special2": [
             "Mind Control"
@@ -6044,7 +6044,7 @@ MONSTER_STATS = {
           "attack": 7,
           "range": 4,
           "special1": [
-            "Summon Giant Viper and Fear"
+            "Призвать Giant Viper and Fear"
           ],
           "special2": [
             "Mind Control"
@@ -6065,7 +6065,7 @@ MONSTER_STATS = {
           "attack": 8,
           "range": 4,
           "special1": [
-            "Summon Giant Viper and Fear"
+            "Призвать Giant Viper and Fear"
           ],
           "special2": [
             "Mind Control"
@@ -6086,7 +6086,7 @@ MONSTER_STATS = {
           "attack": 8,
           "range": 5,
           "special1": [
-            "Summon Giant Viper and Fear"
+            "Призвать Giant Viper and Fear"
           ],
           "special2": [
             "Mind Control"
@@ -6107,7 +6107,7 @@ MONSTER_STATS = {
           "attack": 9,
           "range": 5,
           "special1": [
-            "Summon Giant Viper and Fear"
+            "Призвать Giant Viper and Fear"
           ],
           "special2": [
             "Mind Control"
@@ -6128,7 +6128,7 @@ MONSTER_STATS = {
           "attack": 9,
           "range": 5,
           "special1": [
-            "Summon Giant Viper and Fear"
+            "Призвать Giant Viper and Fear"
           ],
           "special2": [
             "Mind Control"
@@ -6325,12 +6325,12 @@ MONSTER_STATS = {
           "attack": 2,
           "range": 0,
           "special1": [
-            "%dark%%use_element%: Summon Night Demon",
-            "%invisible%, Self"
+            "%dark%%use_element%: Призвать Night Demon",
+            "%invisible%, На себя"
           ],
           "special2": [
-            "%light%%use_element%: Summon Sun Demon",
-            "%heal% 4, Self",
+            "%light%%use_element%: Призвать Sun Demon",
+            "%heal% 4, На себя",
             "%shield% 1"
           ],
           "immunities": [
@@ -6349,12 +6349,12 @@ MONSTER_STATS = {
           "attack": 3,
           "range": 0,
           "special1": [
-            "%dark%%use_element%: Summon Night Demon",
-            "%invisible%, Self"
+            "%dark%%use_element%: Призвать Night Demon",
+            "%invisible%, На себя"
           ],
           "special2": [
-            "%light%%use_element%: Summon Sun Demon",
-            "%heal% 4, Self",
+            "%light%%use_element%: Призвать Sun Demon",
+            "%heal% 4, На себя",
             "%shield% 1"
           ],
           "immunities": [
@@ -6373,12 +6373,12 @@ MONSTER_STATS = {
           "attack": 3,
           "range": 0,
           "special1": [
-            "%dark%%use_element%: Summon Night Demon",
-            "%invisible%, Self"
+            "%dark%%use_element%: Призвать Night Demon",
+            "%invisible%, На себя"
           ],
           "special2": [
-            "%light%%use_element%: Summon Sun Demon",
-            "%heal% 5, Self",
+            "%light%%use_element%: Призвать Sun Demon",
+            "%heal% 5, На себя",
             "%shield% 1"
           ],
           "immunities": [
@@ -6397,12 +6397,12 @@ MONSTER_STATS = {
           "attack": 4,
           "range": 0,
           "special1": [
-            "%dark%%use_element%: Summon Night Demon",
-            "%invisible%, Self"
+            "%dark%%use_element%: Призвать Night Demon",
+            "%invisible%, На себя"
           ],
           "special2": [
-            "%light%%use_element%: Summon Sun Demon",
-            "%heal% 5, Self",
+            "%light%%use_element%: Призвать Sun Demon",
+            "%heal% 5, На себя",
             "%shield% 1"
           ],
           "immunities": [
@@ -6421,12 +6421,12 @@ MONSTER_STATS = {
           "attack": 4,
           "range": 0,
           "special1": [
-            "%dark%%use_element%: Summon Night Demon",
-            "%invisible%, Self"
+            "%dark%%use_element%: Призвать Night Demon",
+            "%invisible%, На себя"
           ],
           "special2": [
-            "%light%%use_element%: Summon Sun Demon",
-            "%heal% 6, Self",
+            "%light%%use_element%: Призвать Sun Demon",
+            "%heal% 6, На себя",
             "%shield% 1"
           ],
           "immunities": [
@@ -6445,12 +6445,12 @@ MONSTER_STATS = {
           "attack": 5,
           "range": 0,
           "special1": [
-            "%dark%%use_element%: Summon Night Demon",
-            "%invisible%, Self"
+            "%dark%%use_element%: Призвать Night Demon",
+            "%invisible%, На себя"
           ],
           "special2": [
-            "%light%%use_element%: Summon Sun Demon",
-            "%heal% 6, Self",
+            "%light%%use_element%: Призвать Sun Demon",
+            "%heal% 6, На себя",
             "%shield% 1"
           ],
           "immunities": [
@@ -6469,12 +6469,12 @@ MONSTER_STATS = {
           "attack": 6,
           "range": 0,
           "special1": [
-            "%dark%%use_element%: Summon Night Demon",
-            "%invisible%, Self"
+            "%dark%%use_element%: Призвать Night Demon",
+            "%invisible%, На себя"
           ],
           "special2": [
-            "%light%%use_element%: Summon Sun Demon",
-            "%heal% 7, Self",
+            "%light%%use_element%: Призвать Sun Demon",
+            "%heal% 7, На себя",
             "%shield% 1"
           ],
           "immunities": [
@@ -6493,12 +6493,12 @@ MONSTER_STATS = {
           "attack": 7,
           "range": 0,
           "special1": [
-            "%dark%%use_element%: Summon Night Demon",
-            "%invisible%, Self"
+            "%dark%%use_element%: Призвать Night Demon",
+            "%invisible%, На себя"
           ],
           "special2": [
-            "%light%%use_element%: Summon Sun Demon",
-            "%heal% 7, Self",
+            "%light%%use_element%: Призвать Sun Demon",
+            "%heal% 7, На себя",
             "%shield% 1"
           ],
           "immunities": [
@@ -6526,7 +6526,7 @@ MONSTER_STATS = {
           ],
           "special2": [
             "%move% +0",
-            "Summon Imp",
+            "Призвать Imp",
             "%attack% -1"
           ],
           "immunities": [
@@ -6549,7 +6549,7 @@ MONSTER_STATS = {
           ],
           "special2": [
             "%move% +0",
-            "Summon Imp",
+            "Призвать Imp",
             "%attack% -1"
           ],
           "immunities": [
@@ -6572,7 +6572,7 @@ MONSTER_STATS = {
           ],
           "special2": [
             "%move% +0",
-            "Summon Imp",
+            "Призвать Imp",
             "%attack% -1"
           ],
           "immunities": [
@@ -6595,7 +6595,7 @@ MONSTER_STATS = {
           ],
           "special2": [
             "%move% +0",
-            "Summon Imp",
+            "Призвать Imp",
             "%attack% -1"
           ],
           "immunities": [
@@ -6618,7 +6618,7 @@ MONSTER_STATS = {
           ],
           "special2": [
             "%move% +0",
-            "Summon Imp",
+            "Призвать Imp",
             "%attack% -1"
           ],
           "immunities": [
@@ -6641,7 +6641,7 @@ MONSTER_STATS = {
           ],
           "special2": [
             "%move% +0",
-            "Summon Imp",
+            "Призвать Imp",
             "%attack% -1"
           ],
           "immunities": [
@@ -6664,7 +6664,7 @@ MONSTER_STATS = {
           ],
           "special2": [
             "%move% +0",
-            "Summon Imp",
+            "Призвать Imp",
             "%attack% -1"
           ],
           "immunities": [
@@ -6687,7 +6687,7 @@ MONSTER_STATS = {
           ],
           "special2": [
             "%move% +0",
-            "Summon Imp",
+            "Призвать Imp",
             "%attack% -1"
           ],
           "immunities": [
@@ -6712,7 +6712,7 @@ MONSTER_STATS = {
             "%attack% +0 %boss-aoe-elder-drake-sp1%"
           ],
           "special2": [
-            "Summon 2 Zephyrs and %move%"
+            "Призвать 2 Zephyrs and %move%"
           ],
           "immunities": [
             "%wound%",
@@ -6733,7 +6733,7 @@ MONSTER_STATS = {
             "%attack% +0 %boss-aoe-elder-drake-sp1%"
           ],
           "special2": [
-            "Summon 2 Zephyrs and %move%"
+            "Призвать 2 Zephyrs and %move%"
           ],
           "immunities": [
             "%wound%",
@@ -6754,7 +6754,7 @@ MONSTER_STATS = {
             "%attack% +0 %boss-aoe-elder-drake-sp1%"
           ],
           "special2": [
-            "Summon 2 Zephyrs and %move%"
+            "Призвать 2 Zephyrs and %move%"
           ],
           "immunities": [
             "%wound%",
@@ -6775,7 +6775,7 @@ MONSTER_STATS = {
             "%attack% +0 %boss-aoe-elder-drake-sp1%"
           ],
           "special2": [
-            "Summon 2 Zephyrs and %move%"
+            "Призвать 2 Zephyrs and %move%"
           ],
           "immunities": [
             "%wound%",
@@ -6796,7 +6796,7 @@ MONSTER_STATS = {
             "%attack% +0 %boss-aoe-elder-drake-sp1%"
           ],
           "special2": [
-            "Summon 2 Zephyrs and %move%"
+            "Призвать 2 Zephyrs and %move%"
           ],
           "immunities": [
             "%wound%",
@@ -6817,7 +6817,7 @@ MONSTER_STATS = {
             "%attack% +0 %boss-aoe-elder-drake-sp1%"
           ],
           "special2": [
-            "Summon 2 Zephyrs and %move%"
+            "Призвать 2 Zephyrs and %move%"
           ],
           "immunities": [
             "%wound%",
@@ -6838,7 +6838,7 @@ MONSTER_STATS = {
             "%attack% +0 %boss-aoe-elder-drake-sp1%"
           ],
           "special2": [
-            "Summon 2 Zephyrs and %move%"
+            "Призвать 2 Zephyrs and %move%"
           ],
           "immunities": [
             "%wound%",
@@ -6859,7 +6859,7 @@ MONSTER_STATS = {
             "%attack% +0 %boss-aoe-elder-drake-sp1%"
           ],
           "special2": [
-            "Summon 2 Zephyrs and %move%"
+            "Призвать 2 Zephyrs and %move%"
           ],
           "immunities": [
             "%wound%",
@@ -7305,11 +7305,11 @@ MONSTER_STATS = {
           "attack": 2,
           "range": 0,
           "special1": [
-            "Summon Living Bones",
+            "Призвать Ожившие кости",
             "%attack% -1, Target all adjacent enemies"
           ],
           "special2": [
-            "Summon Living Corpse",
+            "Призвать Оживший труп",
             "%move% -1",
             "%attack% +2"
           ],
@@ -7328,11 +7328,11 @@ MONSTER_STATS = {
           "attack": 3,
           "range": 0,
           "special1": [
-            "Summon Living Bones",
+            "Призвать Ожившие кости",
             "%attack% -1, Target all adjacent enemies"
           ],
           "special2": [
-            "Summon Living Corpse",
+            "Призвать Оживший труп",
             "%move% -1",
             "%attack% +2"
           ],
@@ -7351,11 +7351,11 @@ MONSTER_STATS = {
           "attack": 3,
           "range": 0,
           "special1": [
-            "Summon Living Bones",
+            "Призвать Ожившие кости",
             "%attack% -1, Target all adjacent enemies"
           ],
           "special2": [
-            "Summon Living Corpse",
+            "Призвать Оживший труп",
             "%move% -1",
             "%attack% +2"
           ],
@@ -7374,11 +7374,11 @@ MONSTER_STATS = {
           "attack": 4,
           "range": 0,
           "special1": [
-            "Summon Living Bones",
+            "Призвать Ожившие кости",
             "%attack% -1, Target all adjacent enemies"
           ],
           "special2": [
-            "Summon Living Corpse",
+            "Призвать Оживший труп",
             "%move% -1",
             "%attack% +2"
           ],
@@ -7397,11 +7397,11 @@ MONSTER_STATS = {
           "attack": 5,
           "range": 0,
           "special1": [
-            "Summon Living Bones",
+            "Призвать Ожившие кости",
             "%attack% -1, Target all adjacent enemies"
           ],
           "special2": [
-            "Summon Living Corpse",
+            "Призвать Оживший труп",
             "%move% -1",
             "%attack% +2"
           ],
@@ -7420,11 +7420,11 @@ MONSTER_STATS = {
           "attack": 5,
           "range": 0,
           "special1": [
-            "Summon Living Bones",
+            "Призвать Ожившие кости",
             "%attack% -1, Target all adjacent enemies"
           ],
           "special2": [
-            "Summon Living Corpse",
+            "Призвать Оживший труп",
             "%move% -1",
             "%attack% +2"
           ],
@@ -7443,11 +7443,11 @@ MONSTER_STATS = {
           "attack": 5,
           "range": 0,
           "special1": [
-            "Summon Living Bones",
+            "Призвать Ожившие кости",
             "%attack% -1, Target all adjacent enemies"
           ],
           "special2": [
-            "Summon Living Corpse",
+            "Призвать Оживший труп",
             "%move% -1",
             "%attack% +2"
           ],
@@ -7466,11 +7466,11 @@ MONSTER_STATS = {
           "attack": 5,
           "range": 0,
           "special1": [
-            "Summon Living Bones",
+            "Призвать Ожившие кости",
             "%attack% -1, Target all adjacent enemies"
           ],
           "special2": [
-            "Summon Living Corpse",
+            "Призвать Оживший труп",
             "%move% -1",
             "%attack% +2"
           ],
@@ -7496,7 +7496,7 @@ MONSTER_STATS = {
             "All Scouts act again"
           ],
           "special2": [
-            "Summon Vermling Scout"
+            "Призвать Vermling Scout"
           ],
           "immunities": [
             "%disarm%",
@@ -7516,7 +7516,7 @@ MONSTER_STATS = {
             "All Scouts act again"
           ],
           "special2": [
-            "Summon Vermling Scout"
+            "Призвать Vermling Scout"
           ],
           "immunities": [
             "%disarm%",
@@ -7536,7 +7536,7 @@ MONSTER_STATS = {
             "All Scouts act again"
           ],
           "special2": [
-            "Summon Vermling Scout"
+            "Призвать Vermling Scout"
           ],
           "immunities": [
             "%disarm%",
@@ -7556,7 +7556,7 @@ MONSTER_STATS = {
             "All Scouts act again"
           ],
           "special2": [
-            "Summon Vermling Scout"
+            "Призвать Vermling Scout"
           ],
           "immunities": [
             "%disarm%",
@@ -7576,7 +7576,7 @@ MONSTER_STATS = {
             "All Scouts act again"
           ],
           "special2": [
-            "Summon Vermling Scout"
+            "Призвать Vermling Scout"
           ],
           "immunities": [
             "%disarm%",
@@ -7596,7 +7596,7 @@ MONSTER_STATS = {
             "All Scouts act again"
           ],
           "special2": [
-            "Summon Vermling Scout"
+            "Призвать Vermling Scout"
           ],
           "immunities": [
             "%disarm%",
@@ -7616,7 +7616,7 @@ MONSTER_STATS = {
             "All Scouts act again"
           ],
           "special2": [
-            "Summon Vermling Scout"
+            "Призвать Vermling Scout"
           ],
           "immunities": [
             "%disarm%",
@@ -7636,7 +7636,7 @@ MONSTER_STATS = {
             "All Scouts act again"
           ],
           "special2": [
-            "Summon Vermling Scout"
+            "Призвать Vermling Scout"
           ],
           "immunities": [
             "%disarm%",
@@ -7658,13 +7658,13 @@ MONSTER_STATS = {
           "range": 0,
           "special1": [
             "Throne moves",
-            "Summon Demon (Special 1)",
+            "Призвать Demon (Special 1)",
             "%move% +2",
             "%attack% -1"
           ],
           "special2": [
             "Throne moves",
-            "Summon Demon (Special 2)",
+            "Призвать Demon (Special 2)",
             "%move% +2",
             "%attack% -1"
           ],
@@ -7686,13 +7686,13 @@ MONSTER_STATS = {
           "range": 0,
           "special1": [
             "Throne moves",
-            "Summon Demon (Special 1)",
+            "Призвать Demon (Special 1)",
             "%move% +2",
             "%attack% -1"
           ],
           "special2": [
             "Throne moves",
-            "Summon Demon (Special 2)",
+            "Призвать Demon (Special 2)",
             "%move% +2",
             "%attack% -1"
           ],
@@ -7714,13 +7714,13 @@ MONSTER_STATS = {
           "range": 0,
           "special1": [
             "Throne moves",
-            "Summon Demon (Special 1)",
+            "Призвать Demon (Special 1)",
             "%move% +2",
             "%attack% -1"
           ],
           "special2": [
             "Throne moves",
-            "Summon Demon (Special 2)",
+            "Призвать Demon (Special 2)",
             "%move% +2",
             "%attack% -1"
           ],
@@ -7742,13 +7742,13 @@ MONSTER_STATS = {
           "range": 0,
           "special1": [
             "Throne moves",
-            "Summon Demon",
+            "Призвать Demon",
             "%move% +2",
             "%attack% -1"
           ],
           "special2": [
             "Throne moves",
-            "Summon Demon",
+            "Призвать Demon",
             "%move% +2",
             "%attack% -1"
           ],
@@ -7770,13 +7770,13 @@ MONSTER_STATS = {
           "range": 0,
           "special1": [
             "Throne moves",
-            "Summon Demon (Special 1)",
+            "Призвать Demon (Special 1)",
             "%move% +2",
             "%attack% -1"
           ],
           "special2": [
             "Throne moves",
-            "Summon Demon (Special 2)",
+            "Призвать Demon (Special 2)",
             "%move% +2",
             "%attack% -1"
           ],
@@ -7798,13 +7798,13 @@ MONSTER_STATS = {
           "range": 0,
           "special1": [
             "Throne moves",
-            "Summon Demon (Special 1)",
+            "Призвать Demon (Special 1)",
             "%move% +2",
             "%attack% -1"
           ],
           "special2": [
             "Throne moves",
-            "Summon Demon (Special 2)",
+            "Призвать Demon (Special 2)",
             "%move% +2",
             "%attack% -1"
           ],
@@ -7826,13 +7826,13 @@ MONSTER_STATS = {
           "range": 0,
           "special1": [
             "Throne moves",
-            "Summon Demon (Special 1)",
+            "Призвать Demon (Special 1)",
             "%move% +2",
             "%attack% -1"
           ],
           "special2": [
             "Throne moves",
-            "Summon Demon (Special 2)",
+            "Призвать Demon (Special 2)",
             "%move% +2",
             "%attack% -1"
           ],
@@ -7854,13 +7854,13 @@ MONSTER_STATS = {
           "range": 0,
           "special1": [
             "Throne moves",
-            "Summon Demon (Special 1)",
+            "Призвать Demon (Special 1)",
             "%move% +2",
             "%attack% -1"
           ],
           "special2": [
             "Throne moves",
-            "Summon Demon (Special 2)",
+            "Призвать Demon (Special 2)",
             "%move% +2",
             "%attack% -1"
           ],
@@ -7885,11 +7885,11 @@ MONSTER_STATS = {
           "attack": 5,
           "range": 3,
           "special1": [
-            "Summon Deep Terror",
+            "Призвать Deep Terror",
             "%attack% -3 %boss-aoe-sightless-eye-sp1%"
           ],
           "special2": [
-            "Summon Deep Terror",
+            "Призвать Deep Terror",
             "%attack% -2 %boss-aoe-sightless-eye-sp2%"
           ],
           "immunities": [
@@ -7907,11 +7907,11 @@ MONSTER_STATS = {
           "attack": 6,
           "range": 3,
           "special1": [
-            "Summon Deep Terror",
+            "Призвать Deep Terror",
             "%attack% -3 %boss-aoe-sightless-eye-sp1%"
           ],
           "special2": [
-            "Summon Deep Terror",
+            "Призвать Deep Terror",
             "%attack% -2 %boss-aoe-sightless-eye-sp2%"
           ],
           "immunities": [
@@ -7929,11 +7929,11 @@ MONSTER_STATS = {
           "attack": 6,
           "range": 3,
           "special1": [
-            "Summon Deep Terror",
+            "Призвать Deep Terror",
             "%attack% -3 %boss-aoe-sightless-eye-sp1%"
           ],
           "special2": [
-            "Summon Deep Terror",
+            "Призвать Deep Terror",
             "%attack% -2 %boss-aoe-sightless-eye-sp2%"
           ],
           "immunities": [
@@ -7951,11 +7951,11 @@ MONSTER_STATS = {
           "attack": 7,
           "range": 3,
           "special1": [
-            "Summon Deep Terror",
+            "Призвать Deep Terror",
             "%attack% -3 %boss-aoe-sightless-eye-sp1%"
           ],
           "special2": [
-            "Summon Deep Terror",
+            "Призвать Deep Terror",
             "%attack% -2 %boss-aoe-sightless-eye-sp2%"
           ],
           "immunities": [
@@ -7973,11 +7973,11 @@ MONSTER_STATS = {
           "attack": 7,
           "range": 3,
           "special1": [
-            "Summon Deep Terror",
+            "Призвать Deep Terror",
             "%attack% -3 %boss-aoe-sightless-eye-sp1%"
           ],
           "special2": [
-            "Summon Deep Terror",
+            "Призвать Deep Terror",
             "%attack% -2 %boss-aoe-sightless-eye-sp2%"
           ],
           "immunities": [
@@ -7995,11 +7995,11 @@ MONSTER_STATS = {
           "attack": 8,
           "range": 3,
           "special1": [
-            "Summon Deep Terror",
+            "Призвать Deep Terror",
             "%attack% -3 %boss-aoe-sightless-eye-sp1%"
           ],
           "special2": [
-            "Summon Deep Terror",
+            "Призвать Deep Terror",
             "%attack% -2 %boss-aoe-sightless-eye-sp2%"
           ],
           "immunities": [
@@ -8017,11 +8017,11 @@ MONSTER_STATS = {
           "attack": 8,
           "range": 3,
           "special1": [
-            "Summon Deep Terror",
+            "Призвать Deep Terror",
             "%attack% -3 %boss-aoe-sightless-eye-sp1%"
           ],
           "special2": [
-            "Summon Deep Terror",
+            "Призвать Deep Terror",
             "%attack% -2 %boss-aoe-sightless-eye-sp2%"
           ],
           "immunities": [
@@ -8039,11 +8039,11 @@ MONSTER_STATS = {
           "attack": 9,
           "range": 3,
           "special1": [
-            "Summon Deep Terror",
+            "Призвать Deep Terror",
             "%attack% -3 %boss-aoe-sightless-eye-sp1%"
           ],
           "special2": [
-            "Summon Deep Terror",
+            "Призвать Deep Terror",
             "%attack% -2 %boss-aoe-sightless-eye-sp2%"
           ],
           "immunities": [
@@ -8070,7 +8070,7 @@ MONSTER_STATS = {
             "Hatch eggs"
           ],
           "special2": [
-            "Summon C eggs",
+            "Призвать C eggs",
             "%move% -1",
             "%attack% +0"
           ],
@@ -8095,7 +8095,7 @@ MONSTER_STATS = {
             "Hatch eggs"
           ],
           "special2": [
-            "Summon C eggs",
+            "Призвать C eggs",
             "%move% -1",
             "%attack% +0"
           ],
@@ -8120,7 +8120,7 @@ MONSTER_STATS = {
             "Hatch eggs"
           ],
           "special2": [
-            "Summon C eggs",
+            "Призвать C eggs",
             "%move% -1",
             "%attack% +0"
           ],
@@ -8145,7 +8145,7 @@ MONSTER_STATS = {
             "Hatch eggs"
           ],
           "special2": [
-            "Summon C eggs",
+            "Призвать C eggs",
             "%move% -1",
             "%attack% +0"
           ],
@@ -8170,7 +8170,7 @@ MONSTER_STATS = {
             "Hatch eggs"
           ],
           "special2": [
-            "Summon C eggs",
+            "Призвать C eggs",
             "%move% -1",
             "%attack% +0"
           ],
@@ -8195,7 +8195,7 @@ MONSTER_STATS = {
             "Hatch eggs"
           ],
           "special2": [
-            "Summon C eggs",
+            "Призвать C eggs",
             "%move% -1",
             "%attack% +0"
           ],
@@ -8220,7 +8220,7 @@ MONSTER_STATS = {
             "Hatch eggs"
           ],
           "special2": [
-            "Summon C eggs",
+            "Призвать C eggs",
             "%move% -1",
             "%attack% +0"
           ],
@@ -8245,7 +8245,7 @@ MONSTER_STATS = {
             "Hatch eggs"
           ],
           "special2": [
-            "Summon C eggs",
+            "Призвать C eggs",
             "%move% -1",
             "%attack% +0"
           ],
